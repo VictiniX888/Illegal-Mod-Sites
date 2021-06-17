@@ -1,22 +1,22 @@
 {
     "appdesc": {
-        "message": "Обнаруживает и предупреждает о сайтах, замеченных в незаконном распространении Minecraft модов.",
+        "message": "Detectează şi avertizează despre site-uri care repostează mod-uri pentru Minecraft.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "blacklist_warn": {
-        "message": "Сайт в чёрном списке StopModReposts!",
+        "message": "Site blocat de StopModReposts!",
         "description": "Appears as the title of the popup users see when visiting blacklisted sites. Please do not translate StopModReposts as it is the name of the campaign."
     },
     "what_happened": {
-        "message": "Этот сайт в чёрном списке StopModReposts.org за нелегальное распространение модов. Это значит, что сайт, который вы только что собирались открыть, ворует моды без разрешения создателей на их публикацию, даёт ссылки на устаревшие, несовместимые или несуществующие версии модов, и/или зарабатывает деньги на упорном труде разработчиков. Вы всё равно можете открыть сайт, но на некоторых сайтах это может подвергнуть ваш компьютер риску заражения вирусами и вредоносными программами.",
+        "message": "Acest site este blocat de StopModReposts.org pentru redistribuirea ilegală a mod-urilor. Asta înseamnă că această pagină fură mod-uri fără permisiune pentru a le încărca aici, conține link-uri la versiuni de mod-uri vechi, incompatibile, sau neexistente, şi/sau face bani de pe munca grea a dezvoltatoriilor de mod-uri. Încă poți vizita pagina dacă dorești, dar nu este recomandat, deoarece anumite site-uri pot conține viruși.",
         "description": "The message that is shown to users when they land on a blacklisted page."
     },
     "campaign_info": {
-        "message": "Нажмите здесь, чтобы узнать больше о кампании StopModReposts.",
+        "message": "Apasă aici pentru a afla mai multe despre campania StopModReposts.",
         "description": "Displayed at the end of the previous message to link to the campaign site."
     },
     "this_site": {
-        "message": "Рейтинг для $site$",
+        "message": "Clasificare pentru $site$",
         "description": "Shown above the ratings for this site. $site$ is a placeholder for the domain of the site, so don't translate that word.",
         "placeholders": {
             "site": {
@@ -26,63 +26,63 @@
         }
     },
     "learn_more": {
-        "message": "Нажмите здесь, чтобы узнать, как мы оцениваем сайты.",
+        "message": "Apasă aici pentru a afla cum clasificăm site-uri.",
         "description": "Users click this link to display the message below."
     },
     "how_we_rate": {
-        "message": "Каждому сайту присваивается оценка от 1 до 5 по трём категориям: реклама, нелегальное распространение и ввод в заблуждение. Реклама отображает количество объявлений показываемых игрокам (уровень заработка владельца нелегального сайта), нелегальное распространение указывает на то, как сильно сайт распространяет моды без разрешения и ввод в заблуждение отвечает за актуальность, совместимость и подлинность версий публикуемых модов, а также указание автора.",
+        "message": "Fiecărui site îi este atribuită o valoare de la 1 la 5 în trei categorii: Reclame, redistribuție şi diverse. Categoria reclame indică cât de multe anunțuri/reclame site-ul încearcă să afișe, categoria redistribuție indică în ce măsură site-ul redistribuie mod-uri fara permisiune, iar categorie diverse indică în ce măsură deținătorul site-ului induce în eroare utilizatorii despre mod-urile postate (versiuni vechi, incompatibile, sau neexistente). Un scor mai mic este mai bun, o singură stea fiind cel mai bun scor.",
         "description": "Message which helps users understand what the ratings mean."
     },
     "hide_rating_guide": {
-        "message": "(Нажмите, чтобы скрыть)",
+        "message": "(Apasă pentru a ascunde)",
         "description": "Displayed at the end of the above message to hide it. Please make sure this is wrapped in parentheses."
     },
     "category": {
-        "message": "Категория",
+        "message": "Categorie",
         "description": "Table header for the three categories below."
     },
     "rating_ads": {
-        "message": "Реклама",
+        "message": "Reclame",
         "description": "Advertising category of the rating, this name is displayed in the evilness table."
     },
     "rating_redist": {
-        "message": "Нелегальное распространение",
+        "message": "Redistribuție",
         "description": "Same as above, except this is for redistribution."
     },
     "rating_misc": {
-        "message": "Ввод в заблуждение",
+        "message": "Diverse",
         "description": "Same as above, except this is for the miscellaneous category."
     },
     "evilness": {
-        "message": "Рейтинг зла",
+        "message": "Scor",
         "description": "Table header for the star ratings. Indicates how evil the site is in the above categories."
     },
     "ratelevel": {
-        "message": "Уровень",
+        "message": "Nivel",
         "description": "Samea as above, but is used for the five severities below instead of stars."
     },
     "severity_none": {
-        "message": "Нет",
+        "message": "Niciunul",
         "description": "Used for sites which do not redistribute mods/advertise etc."
     },
     "severity_low": {
-        "message": "Низкий",
+        "message": "Scăzut",
         "description": "Used for sites which do the above to a small extent."
     },
     "severity_medium": {
-        "message": "Средний",
+        "message": "Mediu",
         "description": "Used for sites which do the above to a slightly larger extent."
     },
     "severity_high": {
-        "message": "Высокий",
+        "message": "Ridicat",
         "description": "Used for sites which do the above to a large extent."
     },
     "severity_veryhigh": {
-        "message": "Очень высокий",
+        "message": "Foarte Ridicat",
         "description": "Used for sites which do the above to a very large extent."
     },
     "site_notes": {
-        "message": "Примечания для этого сайта: $reason$",
+        "message": "Informații suplimentare despre acest site: $reason$",
         "description": "Shown if the site has additional notes supplied by the site reviewers. $reason$ is a placeholder for the reason the site was blocked, so don't translate that word - see below:",
         "placeholders": {
             "reason": {
@@ -92,19 +92,19 @@
         }
     },
     "go_back": {
-        "message": "Вернуться назад",
+        "message": "Întoarce-te la pagina anterioară",
         "description": "Green button which user can press to return to the previous page they were on"
     },
     "why_go_back": {
-        "message": "(рекомендуется для вашей безопасности)",
+        "message": "(recomandat pentru siguranța voastră)",
         "description": "Help text for the above button"
     },
     "continue": {
-        "message": "Всё равно открыть сайт",
+        "message": "Continuă navigarea la acest site",
         "description": "Red button which the user can press to ignore the warning and continue to the blacklisted site"
     },
     "why_continue": {
-        "message": "(может нанести вред вашему компьютеру)",
+        "message": "(poate dăuna calculatorului vostru)",
         "description": "Help text for the above button"
     }
 }

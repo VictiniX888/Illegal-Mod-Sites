@@ -1,22 +1,22 @@
 {
     "appdesc": {
-        "message": "Обнаруживает и предупреждает о сайтах, замеченных в незаконном распространении Minecraft модов.",
+        "message": "يكشف و يحذر من المواقع التي تعيد نشر مودات ماينكرافت بطريقة غير قانونية.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "blacklist_warn": {
-        "message": "Сайт в чёрном списке StopModReposts!",
+        "message": "الموقع موجود في القائمة السوداء بواسطة StopModReposts!",
         "description": "Appears as the title of the popup users see when visiting blacklisted sites. Please do not translate StopModReposts as it is the name of the campaign."
     },
     "what_happened": {
-        "message": "Этот сайт в чёрном списке StopModReposts.org за нелегальное распространение модов. Это значит, что сайт, который вы только что собирались открыть, ворует моды без разрешения создателей на их публикацию, даёт ссылки на устаревшие, несовместимые или несуществующие версии модов, и/или зарабатывает деньги на упорном труде разработчиков. Вы всё равно можете открыть сайт, но на некоторых сайтах это может подвергнуть ваш компьютер риску заражения вирусами и вредоносными программами.",
+        "message": "هذا الموقع يوجد في القائمة السوداء بواسطة StopModReposts.org لإعادة نشر المودات بطريقة غير قانونية. هذا يعني ان الموقع الذي انت كنت علي وشك زيارته الان يسرق المودات من المودرز بدون الأذن منهم من اجل رفعهم هنا, يقوم بالربط الي اصدارات قديمة, غير متوافقة, او غير موجودة من الاساس, وظاو يكسبون النقود من عمل الشاق للمودرز. يمكنك ان تكمل تصفح هذه الصفحة ان اردت, و لكنه محبط و قد يعرض الكمبيوتر لخطر الاصابة الفيروسات و الرامج الضارة.",
         "description": "The message that is shown to users when they land on a blacklisted page."
     },
     "campaign_info": {
-        "message": "Нажмите здесь, чтобы узнать больше о кампании StopModReposts.",
+        "message": "اضغط هنا لتتعلم اكثر عن حملة StopModReposts.",
         "description": "Displayed at the end of the previous message to link to the campaign site."
     },
     "this_site": {
-        "message": "Рейтинг для $site$",
+        "message": "التقييم للموقع $site$",
         "description": "Shown above the ratings for this site. $site$ is a placeholder for the domain of the site, so don't translate that word.",
         "placeholders": {
             "site": {
@@ -26,63 +26,63 @@
         }
     },
     "learn_more": {
-        "message": "Нажмите здесь, чтобы узнать, как мы оцениваем сайты.",
+        "message": "انقر هنا لمعرفة كيف نقيم المواقع.",
         "description": "Users click this link to display the message below."
     },
     "how_we_rate": {
-        "message": "Каждому сайту присваивается оценка от 1 до 5 по трём категориям: реклама, нелегальное распространение и ввод в заблуждение. Реклама отображает количество объявлений показываемых игрокам (уровень заработка владельца нелегального сайта), нелегальное распространение указывает на то, как сильно сайт распространяет моды без разрешения и ввод в заблуждение отвечает за актуальность, совместимость и подлинность версий публикуемых модов, а также указание автора.",
+        "message": "يتم إعطاء تصنيف لكل موقع من 1 إلى 5 في ثلاث فئات: الإعلان وإعادة التوزيع والتنوع. الإعلان يشير إلى عدد الإعلانات التي يعرضها الموقع علي تنزيل المودات (المزيد من الاموال لمالك الموقع الغير القانوني), تشير إعادة التوزيع إلى أي مدى يعيد الموقع إعادة توزيع المودز دون إذن, و يشير النتوع الي أي مدى يضلل مالك الموقع المستخدمين بشأن المودز التي تنشر هنا (مثال جيد. اصدارات فديمة, غير متوافقة او غير موجودة من الاساس وما اذا كان صاحب الموذ قد فضل). تقييم اقل يكون افضل, مع نجمة واحدة افضل تقييم.",
         "description": "Message which helps users understand what the ratings mean."
     },
     "hide_rating_guide": {
-        "message": "(Нажмите, чтобы скрыть)",
+        "message": "(اضغط للاخفاء)",
         "description": "Displayed at the end of the above message to hide it. Please make sure this is wrapped in parentheses."
     },
     "category": {
-        "message": "Категория",
+        "message": "فئة",
         "description": "Table header for the three categories below."
     },
     "rating_ads": {
-        "message": "Реклама",
+        "message": "الإعلان",
         "description": "Advertising category of the rating, this name is displayed in the evilness table."
     },
     "rating_redist": {
-        "message": "Нелегальное распространение",
+        "message": "إعادة التوزيع",
         "description": "Same as above, except this is for redistribution."
     },
     "rating_misc": {
-        "message": "Ввод в заблуждение",
+        "message": "التنوع",
         "description": "Same as above, except this is for the miscellaneous category."
     },
     "evilness": {
-        "message": "Рейтинг зла",
+        "message": "تصنيف الشر",
         "description": "Table header for the star ratings. Indicates how evil the site is in the above categories."
     },
     "ratelevel": {
-        "message": "Уровень",
+        "message": "مستوى التصنيف",
         "description": "Samea as above, but is used for the five severities below instead of stars."
     },
     "severity_none": {
-        "message": "Нет",
+        "message": "لا يوجد",
         "description": "Used for sites which do not redistribute mods/advertise etc."
     },
     "severity_low": {
-        "message": "Низкий",
+        "message": "منخفضة",
         "description": "Used for sites which do the above to a small extent."
     },
     "severity_medium": {
-        "message": "Средний",
+        "message": "متوسطة",
         "description": "Used for sites which do the above to a slightly larger extent."
     },
     "severity_high": {
-        "message": "Высокий",
+        "message": "عالية",
         "description": "Used for sites which do the above to a large extent."
     },
     "severity_veryhigh": {
-        "message": "Очень высокий",
+        "message": "عالية جدا",
         "description": "Used for sites which do the above to a very large extent."
     },
     "site_notes": {
-        "message": "Примечания для этого сайта: $reason$",
+        "message": "ملاحظات علي هذا الموقع: $reason$",
         "description": "Shown if the site has additional notes supplied by the site reviewers. $reason$ is a placeholder for the reason the site was blocked, so don't translate that word - see below:",
         "placeholders": {
             "reason": {
@@ -92,19 +92,19 @@
         }
     },
     "go_back": {
-        "message": "Вернуться назад",
+        "message": "الرجوع إلي الصفحة السابقة",
         "description": "Green button which user can press to return to the previous page they were on"
     },
     "why_go_back": {
-        "message": "(рекомендуется для вашей безопасности)",
+        "message": "(مستحبة لسلامتك)",
         "description": "Help text for the above button"
     },
     "continue": {
-        "message": "Всё равно открыть сайт",
+        "message": "المتابعة لهذا الموقع",
         "description": "Red button which the user can press to ignore the warning and continue to the blacklisted site"
     },
     "why_continue": {
-        "message": "(может нанести вред вашему компьютеру)",
+        "message": "(قد يضر بجهازك)",
         "description": "Help text for the above button"
     }
 }
